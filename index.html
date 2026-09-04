@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Card CS kmitl</title>
+    
   </head>
+  <style>
+
+  /* Step 1: Custom your card's color */
+  .section-1{
+     background: orange;
+  }
+
+  
+  .section-3{
+    background-image: linear-gradient(
+    90deg,
+    rgba(255, 101, 1, 1) 6%,
+    rgba(255, 247, 0, 1) 30%,
+    rgba(255, 101, 1, 1) 90%
+  );
+  }
+
+
+</style>
+
+
   <body>
     <div id="card">
+
       <!-- section-1 -->
       <div class="section-1">
 
@@ -23,7 +46,7 @@
           <!-- ใส่รูปให้หน่อยจิ -->
           <div class="Mylogo">
             <p>logo</p>
-            <img src="./" alt="" />
+            <img src="" alt="" />
           </div>
 
           <!-- ชื่อย่อโรงเรียนตัวเอง -->
@@ -34,10 +57,11 @@
       </div>
 
       <!-- section-2 -->
+       <!-- ใส่ชื่อตัวเอง Thai และ English ต่อใน h4 เลย -->
       <div class="section-2">
         <div class="name">
           <h4>NameTH :  </h4>
-          <h4>NameEN :  </h4>
+          <h5>NameEN :  </h5>
         </div>
         
         <div class="line"></div>
@@ -47,41 +71,14 @@
       </div>
 
 
-      <!-- section-3 fix gradient style-->
+      <!-- section-3 custom gradient style-->
       <div class="section-3">
         LOVE CS
       </div>
     </div>
-    <!-- logo correct -->
-    <img class="logo-correct" src="correct.png" alt="logo kmitl">
+
+    <div class="giri"></div>
   </body>
 </html>
 
-<style>
 
-  
-  .section-1{
-     background: orange;
-  }
-
-  .section-2 {  
-    .name{
-      gap:0px;
-    }
-  }
-
-  .section-3{
-    background-image: linear-gradient(
-    90deg,
-    rgba(255, 101, 1, 1) 6%,
-    rgba(255, 247, 0, 1) 30%,
-    rgba(255, 101, 1, 1) 90%
-  );
-  }
-
-  /* section-4 */
-  .logo-correct{
-    top:0px;
-    right:0px;
-  }
-</style>
