@@ -91,7 +91,7 @@ body {
 }
 
 
-.school{
+.WishCard{
   color: #fff;   
   width: 7ch;     
   text-align: center;   
@@ -119,6 +119,7 @@ body {
   }
 
   h3{
+    text-align: center;
     margin-top: 10px;
     z-index: 1;
   }
@@ -165,7 +166,7 @@ body {
 .cskmitl{
   width: 70px;
   height: 70px;
-  background-image: url('/picture/cskmitl.png');
+  background-image: url('/picture/cskmitl.jpg');
   background-size: cover;
   background-position: center;
   position: absolute;
